@@ -1,0 +1,64 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.tela{
+    background-color:#0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8em;
+}
+.score__value{
+    font-weight: 700;
+    font-size: 2.5em;
+    display: block;
+    margin-top:10px ;
+}
+.menu{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+.menu__over{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3em;
+}
+.menu__score{
+    font-weight: 400;
+    font-size: 3em;
+}
+.menu__play{
+    border:none;
+    border-radius: 1.5em;
+    padding: 10px 15px 10px 12px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #333;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+
+}
+.tela__gameScreen{
+    background-color: black;
+    height: 30rem
+}
